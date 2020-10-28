@@ -138,6 +138,7 @@ footer {
 
 figure {
 	padding: 1em 0;
+  padding-bottom: 0px;
 }
 
 figure img {
@@ -154,6 +155,10 @@ figure iframe {
 
 figure figcaption {
 	text-align: center;
+  padding: 0.5em 0;
+  padding-bottom: 0px;
+  margin: 0 auto;
+  font-weight: bold;
 }
 
 blockquote {
