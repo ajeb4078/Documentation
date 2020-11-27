@@ -137,8 +137,9 @@ footer {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 figure {
-	padding: 1em 0;
+	padding:  0;
   padding-bottom: 0px;
+  border: 1px solid #000000;
 }
 
 figure img {
@@ -146,6 +147,7 @@ figure img {
 	width: 100%;
 	max-width: min-content;
 	margin: 0 auto;
+  
 }
 
 figure iframe {
@@ -188,12 +190,14 @@ blockquote {
 		padding: 0.5em;
 	}
 	figure {
+    border: 1px solid #000000;
 		margin: 0;
 	}
 	figure iframe {
 		width: 100%;
 	}
 	figure img {
+    border: 1px solid #000000;
 		width: 100%;
 	}
 }
